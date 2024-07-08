@@ -1,0 +1,134 @@
+.graph-container {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Increased height to accommodate tooltips */
+}
+
+.graph-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(
+    145deg,
+    #6366f1,
+    #8b5cf6,
+    #ec4899
+  ); /* Indigo, Purple, Pink gradient */
+
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.graph-point {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.graph-point span {
+  position: absolute;
+  color: #fff;
+}
+
+.graph-point:nth-child(odd) span {
+  bottom: -20px; /* Position the year below the point for odd tooltips */
+}
+
+.graph-point:nth-child(even) span {
+  top: -20px; /* Position the year above the point for even tooltips */
+}
+
+.graph-point::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(
+    145deg,
+    #6366f1,
+    #8b5cf6,
+    #ec4899
+  ); /* Indigo, Purple, Pink gradient */
+
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.graph-point:hover::before {
+  background-color: #800080;
+}
+
+.tooltip {
+  display: flex;
+  align-items: center;
+  visibility: hidden; /* Start hidden for animation */
+  width: 300px;
+  background: linear-gradient(145deg, #4e51d1, #7644c6, #e0367a);
+
+  color: #fff;
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0; /* Start with opacity 0 for animation */
+  transform: translateY(20px); /* Start with slight translateY for animation */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  perspective: 1000px;
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.tooltip-animate {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tooltip img {
+  width: 40%; /* Adjust width as needed */
+  border-radius: 6px;
+  margin-right: 10px; /* Space between image and content */
+}
+
+.tooltip-content {
+  font-size: 12px;
+  flex: 1; /* Allow content to take remaining space */
+}
+
+/* Alternate positioning for tooltips */
+.graph-point:nth-child(odd) .tooltip {
+  bottom: 150%; /* Position above the point */
+  left: 50%;
+  margin-left: -150px; /* Center the tooltip */
+}
+
+.graph-point:nth-child(even) .tooltip {
+  top: 150%; /* Position below the point */
+  left: 50%;
+  margin-left: -150px; /* Center the tooltip */
+}
