@@ -22,7 +22,7 @@ const Companies: React.FC = () => {
             {companies.map((company) => (
               <React.Fragment key={company.id}>
                 <div className="flex flex-col items-center w-1/3 md:w-auto gap-2">
-                  <Image
+                  <img
                     src={company.img}
                     alt={company.name}
                     // className="md:w-15 w-16 md:h-16 h-12 lg:w-24 lg:h-24"

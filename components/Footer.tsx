@@ -21,11 +21,11 @@ const Footer = () => {
 
       <div className="flex flex-col items-center relative z-10">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take{" "}
+          Ready to bring{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
             your
           </span>{" "}
-          digital presence to the next level?
+          ideas to life?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you

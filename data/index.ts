@@ -83,7 +83,7 @@ export const projects = [
     des: "An IOT Enabled Vending Machine for Cloth Bags, Sanitary Napkins etc",
     img: "/productsImg/automaticVendingMachine.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://youtu.be/ICL0J5y9gqY?si=0Xj9jpf4DX3eGG5s",
   },
   {
     id: 2,
@@ -91,7 +91,7 @@ export const projects = [
     des: "A Surveillance Drone Controlled Over the Internet",
     img: "/productsImg/drone.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "",
   },
   {
     id: 3,
@@ -99,7 +99,7 @@ export const projects = [
     des: "An AI & Computer Vision based Sudoku Solver Robot",
     img: "/productsImg/miniRobo.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "",
   },
   {
     id: 4,
@@ -107,7 +107,7 @@ export const projects = [
     des: "An IOT Enabled Smart E-Waste Bin.",
     img: "/productsImg/smartEwasteBin.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://youtu.be/9hhAObtdqXM?si=q89ICfVYZKLioTvu",
   },
   {
     id: 5,
@@ -115,7 +115,7 @@ export const projects = [
     des: "A speech & Web Controlled Surveillance Spider Robot.",
     img: "/productsImg/spider.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://youtu.be/3edXTxIZ_2U?si=lNiIy8gtKavg7ATf",
   },
   {
     id: 6,
@@ -123,7 +123,55 @@ export const projects = [
     des: "An AI Based Women Safety Device.",
     img: "/productsImg/woCare.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "",
+  },
+  {
+    id: 7,
+    title: "Kinetic Wall",
+    des: "Introducing the future of interactive art and technology: the Raspberry Pi Powered Interactive Kinetic Wall. In a world where creativity meets innovation, this groundbreaking project pushes the boundaries of traditional art and engineering.",
+    img: "/productsImg/Kinetic wall.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "",
+  },
+  {
+    id: 8,
+    title: "PPG transmitter",
+    des: "Smart Healthcare Monitoring System.",
+    img: "/productsImg/ppg transmitter.jpeg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "",
+  },
+  {
+    id: 9,
+    title: "CURAFOOT",
+    des: "Smart Feet Care System.",
+    img: "/productsImg/bata.JPG",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "",
+  },
+  {
+    id: 10,
+    title: "Sound Proff",
+    des: "Anti Eavesdropping Mobile Phone Vault.",
+    img: "/productsImg/soundproof.JPG",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "",
+  },
+  {
+    id: 11,
+    title: "Scanner",
+    des: "Professional Document Scanner.",
+    img: "/productsImg/scanner.JPG",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "",
+  },
+  {
+    id: 12,
+    title: "PPG Device",
+    des: "IOT Based CardioCare System.",
+    img: "/productsImg/cardio.jpeg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "",
   },
 ];
 
@@ -241,7 +289,7 @@ export const companies = [
     id: 8,
     name: "Gov Of Wb",
     img: "/clientsLogos/GOV_WEST_BENGAL_Logo.png",
-    title: "Gov of West_Bengal",
+    title: "Gov of West Bengal",
   },
   {
     id: 9,
@@ -390,60 +438,60 @@ export const media = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software, Web Development",
-    desc: "We turn your dreams into reality with custom websites for individuals, businesses, and more. We also develop e-commerce sites tailored to your needs.",
+    title: "Software, Web Development, Mobile App Dev",
+    desc: "we specialize in creating custom websites and applications for individuals, businesses, and more.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
+  // {
+  //   id: 2,
+  //   title: "Mobile App Dev",
+  //   desc: "We bring your vision to life with custom app development for businesses, individuals, and more. From idea to launch, we create apps that fit your unique needs.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/ourServices/appDevellop.png",
+  // },
   {
     id: 2,
-    title: "Mobile App Dev",
-    desc: "We bring your vision to life with custom app development for businesses, individuals, and more. From idea to launch, we create apps that fit your unique needs.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/ourServices/appDevellop.png",
-  },
-  {
-    id: 3,
     title: "Data Science As a Service Model",
     desc: "Data Science as a Service (DSaaS) provides cloud-based analytics, extracting insights from data without in-house infrastructure. It enables cost-effective, data-driven decisions.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/ourServices/DataScienceLogo.png",
   },
   {
-    id: 4,
+    id: 3,
     title: "Industrial Automation & Robotics",
     desc: "We provide end-to-end IoT analytics solution development. We also provide strategic IoT planning, architecture design, tech stack, selection, technical support and troubleshooting.",
     className: "md:col-span-2",
     thumbnail: "/ourServices/IndustryRObotics.png",
   },
   {
-    id: 5,
+    id: 4,
     title: "Computer Vision & Artificial Intelligence (AI)",
     desc: "Computer Vision and AI merge to empower machines with visual interpretation and intelligent decision-making, transforming industries with advancements in facial recognition and object detection.",
     className: "md:col-span-2",
     thumbnail: "/ourServices/AiVisionsComputer.png",
   },
   {
-    id: 6,
+    id: 5,
     title: "STEM & Corporate Training",
     desc: "We offer high-quality training in IT, IoT, and Robotics, featuring practical, real-world content delivered by experienced facilitators.",
     className: "md:col-span-2",
     thumbnail: "/ourServices/sytemandtraining.png",
   },
   {
-    id: 7,
+    id: 6,
     title: "3D Printing",
     desc: "3D printing revolutionizes manufacturing by layering materials from digital models, enabling rapid prototyping and intricate design across industries like healthcare and aerospace.",
     className: "md:col-span-2",
     thumbnail: "/ourServices/3dPrinting.png",
   },
-  {
-    id: 8,
-    title: "Digital Marketing",
-    desc: "Digital marketing uses online channels to promote products/services, engage customers with targeted content, and optimize strategies in real-time for measurable brand growth.",
-    className: "md:col-span-2",
-    thumbnail: "/ourServices/DigitalMarketing.png",
-  },
+  // {
+  //   id: 8,
+  //   title: "Digital Marketing",
+  //   desc: "Digital marketing uses online channels to promote products/services, engage customers with targeted content, and optimize strategies in real-time for measurable brand growth.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/ourServices/DigitalMarketing.png",
+  // },
 ];
 
 export const socialMedia = [
@@ -459,4 +507,28 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
   },
+];
+
+export const crouselTitle = [
+  "1. The Beginning",
+  "2. The Struggle",
+  "3. The Growth",
+  "4. The Achievement",
+  "5. The Sucess",
+];
+
+export const crouselTexts = [
+  "The Beginning :Embarking on a journey often begins with a spark of inspiration or a compelling need for change. The year was 2020, a time of global upheaval and uncertainty, yet it was also a moment ripe with opportunities. For many, it marked the start of a personal odyssey towards self-discovery and achievement. The path ahead was unclear, filled with challenges and unknowns, but the desire to forge ahead was stronger than ever. This was the beginning of a journey from nothing, a quest to build something meaningful from the ground up",
+  "The Beginning :Embarking on a journey often begins with a spark of inspiration or a compelling need for change. The year was 2020, a time of global upheaval and uncertainty, yet it was also a moment ripe with opportunities. For many, it marked the start of a personal odyssey towards self-discovery and achievement. The path ahead was unclear, filled with challenges and unknowns, but the desire to forge ahead was stronger than ever. This was the beginning of a journey from nothing, a quest to build something meaningful from the ground up",
+  "The Beginning :Embarking on a journey often begins with a spark of inspiration or a compelling need for change. The year was 2020, a time of global upheaval and uncertainty, yet it was also a moment ripe with opportunities. For many, it marked the start of a personal odyssey towards self-discovery and achievement. The path ahead was unclear, filled with challenges and unknowns, but the desire to forge ahead was stronger than ever. This was the beginning of a journey from nothing, a quest to build something meaningful from the ground up",
+  "The Beginning :Embarking on a journey often begins with a spark of inspiration or a compelling need for change. The year was 2020, a time of global upheaval and uncertainty, yet it was also a moment ripe with opportunities. For many, it marked the start of a personal odyssey towards self-discovery and achievement. The path ahead was unclear, filled with challenges and unknowns, but the desire to forge ahead was stronger than ever. This was the beginning of a journey from nothing, a quest to build something meaningful from the ground up",
+  "The Beginning :Embarking on a journey often begins with a spark of inspiration or a compelling need for change. The year was 2020, a time of global upheaval and uncertainty, yet it was also a moment ripe with opportunities. For many, it marked the start of a personal odyssey towards self-discovery and achievement. The path ahead was unclear, filled with challenges and unknowns, but the desire to forge ahead was stronger than ever. This was the beginning of a journey from nothing, a quest to build something meaningful from the ground up",
+];
+
+export const crouselSlides = [
+  "https://images.unsplash.com/photo-1612282130247-abb09429ccc1?q=80&w=1818&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://plus.unsplash.com/premium_photo-1702867544212-c741c857ca7a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://plus.unsplash.com/premium_photo-1674020360890-c2dc3ae53be1?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1612282131240-6e878907d0f6?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 ];

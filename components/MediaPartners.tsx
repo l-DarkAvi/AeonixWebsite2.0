@@ -79,9 +79,9 @@ const MediaPartners: React.FC = () => {
   return (
     <section id="testimonials" className="mt-10 md:mt-11 lg:mt-32">
       <h1 className="heading">
-        Our &nbsp;
+        Media &nbsp;
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-          Media Partners
+          Coverage
         </span>
       </h1>
 
@@ -91,7 +91,7 @@ const MediaPartners: React.FC = () => {
             {media.map((company) => (
               <React.Fragment key={company.id}>
                 <div className="flex flex-col items-center w-1/3 md:w-auto gap-2">
-                  <Image
+                  <img
                     src={company.img}
                     alt={company.name}
                     className="md:w-15 w-16 md:h-16 h-12 rounded-full"
@@ -99,8 +99,8 @@ const MediaPartners: React.FC = () => {
                     style={{
                       objectFit: "cover",
                     }}
-                    height={80}
-                    width={80}
+                    // height={80}
+                    // width={80}
                   />
                   <h1 className="text-center md:w-24 w-20">{company.title}</h1>
                 </div>
